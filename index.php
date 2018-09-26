@@ -10,9 +10,9 @@
 
 
 var dado = Math.floor((Math.random() * 6) + 1);
-      var cartera = parseInt(prompt("Añade saldo a tu cartera"));
+      var cartera = ParseInt(prompt("Añade saldo a tu cartera"));
       alert("Normas del juego, si sale 4,5,6 gana el casino, si sale 1,2,3 ganas tú. La apuesta del casino es la misma que la tuya. No puedes apostar mas de 50€");
-      var dinero = parseInt(prompt("Introduce tu dinero de juego "));
+      var dinero = ParseInt(prompt("Introduce tu dinero de juego "));
       var dincasino =  dinero;
       var dineroactual = 50;
       if(cartera < dinero) {
