@@ -42,35 +42,19 @@ else {
 
       alert("Salio" + " " + dado);
       alert("Tu dinero actual es " + dinero2 + "€" );
-      alert("tu dinero en la cartera es de " + cartera1 + "€");
+      alert("Tu dinero en la cartera es de " + cartera1 + "€");
 
       var dinero3=dinero2;
 
       }
 
-      //Ronda dos
-             var si = prompt("Deseas repetir la jugada. Por favor utiliza si o no");
-             if (si = si) {
-               var dado2 = Math.floor((Math.random() * 6) + 1);
-               var dincasino2 = dinero3;
+      //Rondas
 
+      var ronda = parseInt(prompt("¿Cuantas veces deseas repetir el juego?"));
+      if (ronda<=0) {
+      alert("Gracias por jugar.")
 
-               if (dado2>3) {
-              (dinero3 = (dinero2 - dincasino2)) ;
-
-            } else if (dado2<4) {
-              (dinero3 = (dinero2 - -dincasino2)) ;
-
-            }
-
-
-            alert("Salio" + " " + dado);
-
-
-            alert("Tu dinero actual es " + dinero3 + " €");
-
-           }
-
+              }
 
      </script>
 
