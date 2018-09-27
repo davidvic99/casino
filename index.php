@@ -40,6 +40,7 @@ else {
 
          };
 
+<<<<<<< HEAD
   alert("Salio" + " " + dado);
   alert("Tu dinero actual es " + dinero2 + "€" );
   alert("Tu dinero en la cartera es de " + cartera1 + "€");
@@ -50,6 +51,11 @@ else {
 
   //Rondas
 
+=======
+      alert("Salio" + " " + dado);
+      alert("Tu dinero actual es " + dinero2 + "€" );
+      alert("Tu dinero en la cartera es de " + cartera1 + "€");
+>>>>>>> 733b68d96b8a22b68fccb5ab15daf2ad56de7503
 
   var ronda = parseInt(prompt("¿Cuantas veces deseas repetir el juego?"));
   if (ronda<=0) {
@@ -73,6 +79,9 @@ else {
 
      cartera2 = (cartera1 - (dinero4 + dincasino2));
 
+      var ronda = parseInt(prompt("¿Cuantas veces deseas repetir el juego?"));
+      if (ronda<=0) {
+      alert("Gracias por jugar.")
 
   } else if (dado2<4) {
     (dinero5 = (dinero4  + dincasino2)) ;
