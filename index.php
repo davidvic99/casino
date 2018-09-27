@@ -53,18 +53,25 @@ else {
 
   var ronda = parseInt(prompt("¿Cuantas veces deseas repetir el juego?"));
   if (ronda<=0) {
+
   alert("Gracias por jugar.");
 
       } else if (ronda>=ronda) {
         var dado2 = Math.floor((Math.random() * 6) + 1);
+
   alert("tu dinero actual de la cartera es " + cartera1);
+
       if (cartera1<0) {
-          alert("No tienes dinero suficente. Gracias por jugar")
+
+  alert("No tienes dinero suficente. Gracias por jugar")
 
       }
+
   var dinero4 = parseInt(prompt("¿Cuánto dinero quieres apostar de la cartera?"));
   var dincasino2 =  dinero4;
+
   if (dinero4>cartera1) {
+
     alert("No dispones de tanto dinero en la cartera");
 
 
@@ -86,15 +93,10 @@ if (cartera2===0) {
   alert("tu dinero es 0. Se acabo.")
 } else {
   alert(dado2)
-  var cartera2=(cartera1 + dinero5);
+  var cartera2=(cartera2 + dinero5);
   alert("Tu dinero actual es " + dinero5 + "€" );
   alert("Tu dinero en la cartera es de " + cartera2 + "€");
 }
-
-
-
-
-
 
 
       }
